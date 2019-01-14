@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CB Folder</string>
+    <string name="agenda_view">Agenda</string>
+    <string name="contact_view">Contact</string>
+    <string name="title_activity_agenda_detail">Agenda Detail</string>
+</resources>

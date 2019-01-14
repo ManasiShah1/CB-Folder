@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding = "2dp">
+
+    <TextView
+        android:id="@+id/id_tvYbName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding = "2dp"
+        android:textColor ="@color/colorPrimaryDark"
+        android:textSize ="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/id_tvGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:padding = "2dp"
+        android:textColor ="@color/colorPrimary"
+        android:textSize ="18dp" />
+
+    <TextView
+        android:id="@+id/id_tvYbCell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_tvYbName"
+        android:layout_alignParentLeft="true"
+        android:padding = "2dp"
+        android:textColor ="@color/colorPrimary"
+        android:textSize ="16dp"
+        android:autoLink="phone"
+        android:linksClickable="true"/>
+
+    <TextView
+        android:id="@+id/id_tvPartner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_tvYbName"
+        android:layout_alignParentRight="true"
+        android:padding = "2dp"
+        android:textColor ="@color/colorPrimary"
+        android:textSize ="18dp" />
+
+</RelativeLayout>

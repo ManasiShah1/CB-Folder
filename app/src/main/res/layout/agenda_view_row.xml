@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding = "2sp">
+
+    <!-- defines the content of each row in list view of schedule-->
+
+    <TextView
+        android:id="@+id/id_tvStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding = "2sp"
+        android:textColor ="@color/colorPrimary"
+        android:textSize ="16sp"/>
+
+    <TextView
+        android:id="@+id/id_tvSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/id_tvStartTime"
+        android:padding = "2sp"
+        android:textColor ="@color/colorPrimaryDark"
+        android:textSize ="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/id_tvEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/id_tvStartTime"
+        android:layout_below="@id/id_tvStartTime"
+        android:padding = "2sp"
+        android:textColor ="@color/colorPrimary"
+        android:textSize ="16sp"/>
+
+    <TextView
+        android:id="@+id/id_tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/id_tvSummary"
+        android:layout_below="@id/id_tvSummary"
+        android:padding = "2sp"
+        android:textColor ="@color/colorPrimary"
+        android:textSize ="16sp"
+        android:textStyle="italic" />
+</RelativeLayout>
